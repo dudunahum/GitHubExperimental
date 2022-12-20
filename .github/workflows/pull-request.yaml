@@ -9,7 +9,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.0.2
       - name: Scan with Ermetic GitHub action
-        uses: ermetic/code-scan-action@b5987271f52b39677a58c52e5e8bad4f8c0a0e2f
+#        uses: ermetic/code-scan-action@b5987271f52b39677a58c52e5e8bad4f8c0a0e2f
+        uses: ./actions/ermetic/action@v1
         with:
           api-token: ${{ secrets.ERMETIC_API_TOKEN }}
           api-url: https://us1.dev.app.ermetic.com
