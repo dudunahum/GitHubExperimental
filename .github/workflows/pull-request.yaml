@@ -13,5 +13,5 @@ jobs:
         uses: ermetic/actions@a1c91e7e49676aa72a2f7a10bee1d6c0b3d2e44b
         with:
           api-token: ${{ secrets.ERMETIC_API_TOKEN }}
-          api-url: https://us1.dev.app.ermetic.com
+          api-url: https://us12.dev.app.ermetic.com
         
