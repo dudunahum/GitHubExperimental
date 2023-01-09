@@ -19,4 +19,4 @@ jobs:
           api-url: https://us13.dev.app.ermetic.com
           paths: ./
           fail-on-min-severity: Information
-          logs: tre
+          logs: true
