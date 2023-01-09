@@ -16,5 +16,5 @@ jobs:
         uses: ermetic/actions/iac/scan@v1
         with:
           api-token: ${{ secrets.ERMETIC_API_TOKEN }}
-          api-url: https://us11.dev.app.ermetic.com
+          api-url: https://us13.dev.app.ermetic.com
           logs: true
