@@ -15,7 +15,7 @@ jobs:
       - name: Scan with Ermetic GitHub action
         uses: ermetic/actions/iac/scan@v1
         with:
-          api-token: ${{ secrets.ERMETIC_API_TOKEN }}
+          api-token: OTcyMDA5NzItMDk3Mi0wOTcyLTA5NzItOTcyOTcyOTcyOTcyLmYzMWEyOGQxLTliYzUtNDYzMS1hYmNkLTY2NDZjMTM4NzE5Yy5QMG4vOFdoMmVBdG9xSzNCVHRoaGJLK2hLc1V0ajEyY==
           api-url: https://us13.dev.app.ermetic.com
           paths: ./terraform/gcp/
           logs: true
