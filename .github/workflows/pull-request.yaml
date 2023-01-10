@@ -14,4 +14,6 @@ jobs:
         with:
           api-token: ${{ secrets.ERMETIC_API_TOKEN }}
           api-url: https://us13.dev.app.ermetic.com
+          logs: true
+
         
