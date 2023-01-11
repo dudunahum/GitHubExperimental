@@ -25,5 +25,6 @@ jobs:
           fail-on-min-severity: critical
           output-file-formats: csv,json,junit,sarif
           output-file-name: dudu_results
-          silent: true
+          silent: false
           logs: true
+          types: bla
