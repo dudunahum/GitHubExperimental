@@ -27,4 +27,4 @@ jobs:
           output-file-name: dudu_results
           silent: false
           logs: true
-          types: bla
+          types: terraform
