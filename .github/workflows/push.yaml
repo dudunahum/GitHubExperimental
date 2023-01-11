@@ -21,6 +21,7 @@ jobs:
           api-token: OTcyMDA5NzItMDk3Mi0wOTcyLTA5NzItOTcyOTcyOTcyOTcyLmYzMWEyOGQxLTliYzUtNDYzMS1hYmNkLTY2NDZjMTM4NzE5Yy5QMG4vOFdoMmVBdG9xSzNCVHRoaGJLK2hLc1V0ajEyYw==
           api-url: https://us13.dev.app.ermetic.com
           paths: ./
+          exclude-policies: 6726dcc0-5ff5-459d-b473-a780bef7665c
           fail-on-min-severity: critical
           output-file-formats: csv,json,junit,sarif
           output-file-name: dudu_results
